@@ -1,5 +1,5 @@
 {
-  "name": "word-problems-from-tvesha",
+  "name": "tveshawordproblems",
   "private": true,
   "description": "Math word problems for Tvesha (static site)",
   "engines": {
@@ -8,7 +8,8 @@
   "scripts": {
     "netlify:login": "netlify login",
     "netlify:deploy": "netlify deploy --prod --dir .",
-    "netlify:deploy:draft": "netlify deploy --dir ."
+    "netlify:deploy:draft": "netlify deploy --dir .",
+    "netlify:rename": "node scripts/rename-netlify-site.cjs"
   },
   "devDependencies": {
     "netlify-cli": "17.36.4"
